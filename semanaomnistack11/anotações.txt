@@ -1,0 +1,14 @@
+Semana omnistack 11
+    Backend:
+        Regras de Negocios;
+        Conexão banco de dados;
+        Envio de E-mails;
+        Comunicação com Webservices;
+        Autenticação do usuário;
+        Criptografia e segurança;
+        Comunicação com Frontend, Mobile, Serviços Externo:
+            Json;
+        Iniciando o projeto:
+            npm init -y
+            utilizando o framwork express no projeto
+        
