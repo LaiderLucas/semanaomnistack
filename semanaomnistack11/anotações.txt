@@ -11,4 +11,45 @@ Semana omnistack 11
         Iniciando o projeto:
             npm init -y
             utilizando o framwork express no projeto
-        
+        Abordagem SPA (Single Page Application)
+        Criando a applicação web com REACT JS
+            npx create react-app frontend
+    Rotas e Recursos
+    Metodos HTTP
+        GET: Buscar Uma informação do Backend
+        POST: Criar uma informação no Backend
+        PUT: Alterar uma informação no Backend
+        DELETE: Deletar uma informação no Backend
+    Tipos de Parâmentros
+        Query Params: Parâmentros nomeados enviados na rota após o simbolo ? serve para filtros paginação
+        Route Params:  Parâmentros Ultilizados para identificar Recursos
+        Request Body: Corpo da Requisição, Ultilizado para criar  ou Alterar informação
+    Pacote Nodemon
+    npm install nodemon -D
+    Comunicação com Banco de Dados:
+        Driver: Linguagem SQL
+        Query Builder: Cria comandos Ultilizando JavaScript
+    npm install knex sqlite3 // instala o Query Builder para SQL
+    npx knex init // inicia o pacote knex
+    Entidades:
+        Ong
+        Casos (incident)
+    Funcionalidades:
+        login Ong
+        logout ong
+        Cadastro de Ong
+        Cadastrar novos Casos
+        Deletar Casos
+        Listar Casos especificos de uma Ong
+        Listar todos os casos
+        Entrar em Contato com a ONG
+    knex migrations (Cria as tabelas no banco de dados e cria um histórico)
+        Criar tabelas ONGS:
+            npx knex migrate:make create_ongs
+            depois de editar o arquivo criado
+            npx knex migrate:latest
+
+
+
+
+
