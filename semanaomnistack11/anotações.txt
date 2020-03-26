@@ -48,6 +48,11 @@ Semana omnistack 11
             npx knex migrate:make create_ongs
             depois de editar o arquivo criado
             npx knex migrate:latest
+    Frontend:
+        npm start
+        npm install react-icons // instala o pacote de icones do react
+        npm install react-router-dom // controlador de rotas
+        npm install axios
 
 
 
