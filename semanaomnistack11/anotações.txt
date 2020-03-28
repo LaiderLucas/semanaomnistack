@@ -53,6 +53,21 @@ Semana omnistack 11
         npm install react-icons // instala o pacote de icones do react
         npm install react-router-dom // controlador de rotas
         npm install axios
+    Mobile:
+        Instalando o Expo:
+            Set-ExecutionPolicy Unrestricted // executar caso de erro ao instalar o expo
+            npm install -g expo-cli // o parametro -g serve para instalar um pacote de forma global, disponivel para todos os projetos.
+            expo init mobile // cria um projeto
+            yarn start para inciar // inicia a execução do projeto 
+        Elementos no React Native não possui significado semântico
+        Não existe herança de estilo no RN;
+        Instalar as dependicias da navigation do expo
+        npm install expo-constants // serve para pegar alguns valores especificos como por exemplo o tamanho da Status bar
+        expo install expo-mail-composer // bliblioteca para envio de e-mail com expo
+        dentro do RN tem um componente chamado Linking que serve para chamar outros aplicativos do celular
+        instlar o axios para conexão com a API
+        instalar o pacote intl para pode converter os valores de forma universal
+
 
 
 
