@@ -66,7 +66,25 @@ Semana omnistack 11
         expo install expo-mail-composer // bliblioteca para envio de e-mail com expo
         dentro do RN tem um componente chamado Linking que serve para chamar outros aplicativos do celular
         instlar o axios para conexão com a API
-        instalar o pacote intl para pode converter os valores de forma universal
+        instalar o pacote intl para pode converter os valores de forma universal.
+    Funcionalidades:
+        Validação: Bliblioteca celebrate
+        jest = automação de testes
+            npx jest --init
+        cross-env // serve para criar variaveis de ambiente para ser Ultilizadas na applicação
+        supertest // bliblioteca de teste para rotas que exigem conexões http,
+        para setar um valor no corpo da mensagem http é só usar o set ('nome_do_campo', 'valor')
+        Deploy:
+            backend:
+                heroku.com // testar o node
+                digitalOcean
+            frontend:
+                netlify
+        Oque estudar:
+            Padrões de Códigos: ESLint, Prettier
+            Autenticação JWT
+            Styled Components
+
 
 
 
